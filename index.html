@@ -1,0 +1,147 @@
+# Dubinsko-i-enje-namje-taja-
+Web stranica za AS Dubinsko čišćenje namjestaja
+<!DOCTYPE html><html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS Dubinsko čišćenje namještaja</title>
+    <meta name="description" content="AS Dubinsko čišćenje namještaja - profesionalno čišćenje kauča, madraca, tapeciranog namještaja i interijera automobila u Zagrebu. Kontakt: 097 643 102.">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #005fa3;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+        }
+        footer {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+        .cta {
+            background-color: #e6f3ff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .galerija {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .galerija img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        input, textarea {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AS Dubinsko čišćenje namještaja</h1>
+        <p>Profesionalno dubinsko čišćenje namještaja i automobila - Zagreb</p>
+    </header><nav>
+    <a href="#usluge">Usluge</a>
+    <a href="#o-meni">O meni</a>
+    <a href="#galerija">Galerija</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section id="usluge">
+    <h2>Naše usluge</h2>
+    <ul>
+        <li>Dubinsko čišćenje kauča, trosjeda, dvosjeda, fotelja</li>
+        <li>Čišćenje madraca i kreveta</li>
+        <li>Dubinsko čišćenje tepiha i staza</li>
+        <li>Dubinsko čišćenje interijera automobila</li>
+    </ul>
+</section>
+
+<section id="o-meni">
+    <h2>O meni</h2>
+    <p>Zovem se Alen, imam 24 godine i dolazim iz Zagreba. Vlasnik sam obrta <strong>AS Dubinsko čišćenje namještaja</strong>. Moj cilj je pružiti kvalitetnu i pouzdanu uslugu dubinskog čišćenja svih vrsta tapiciranog namještaja i interijera automobila. Svaki posao odrađujem s posebnom pažnjom i profesionalizmom.</p>
+</section>
+
+<section id="galerija">
+    <h2>Galerija radova</h2>
+    <div class="galerija">
+        <img src="slike/galerija1.jpg" alt="Kauč tijekom čišćenja">
+        <img src="slike/galerija2.jpg" alt="Očišćen kutni kauč">
+        <img src="slike/galerija3.jpg" alt="Kauč prije i poslije">
+    </div>
+</section>
+
+<section class="cta" id="kontakt">
+    <h2>Kontaktirajte me</h2>
+    <p>Telefon: <a href="tel:+38597643102">097 643 102</a></p>
+    <p>Email: <a href="mailto:alen.alikic22@gmail.com">alen.alikic22@gmail.com</a></p>
+    <p>Zagreb, Hrvatska</p>
+
+    <h3>Pošaljite poruku putem kontakt forme:</h3>
+    <form action="mailto:alen.alikic22@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Ime" placeholder="Vaše ime" required>
+        <input type="email" name="Email" placeholder="Vaš email" required>
+        <textarea name="Poruka" rows="5" placeholder="Vaša poruka..." required></textarea>
+        <button type="submit">Pošalji</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 AS Dubinsko čišćenje namještaja. Sva prava pridržana.</p>
+</footer>
+
+</body>
+</html>
